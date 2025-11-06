@@ -33,6 +33,7 @@ export default defineConfig([
       "react/display-name": "off",
       "unused-imports/no-unused-imports": "error",
       "no-duplicate-imports": "error",
+      "react-refresh/only-export-components": "off",
 
       "@typescript-eslint/no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": [
