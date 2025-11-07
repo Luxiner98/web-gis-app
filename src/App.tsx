@@ -1,5 +1,12 @@
+import { OpenLayersMap } from "./components/OpenLayersMap";
+import { MapContextProvider } from "./context";
+
 function App() {
-  return <h1>hello world</h1>;
+  return (
+    <MapContextProvider>
+      <OpenLayersMap />
+    </MapContextProvider>
+  );
 }
 
 export default App;
