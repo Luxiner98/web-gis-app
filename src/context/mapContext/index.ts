@@ -1,2 +1,2 @@
 export * from "./useMapContext";
-export * from "./MapContext";
+export * from "./MapContextProvider";
